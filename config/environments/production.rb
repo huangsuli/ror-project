@@ -79,7 +79,7 @@ Rails.application.configure do
   
   config.action_mailer.default_url_options = {host:'ror-project233.herokuapp.com'}
   
-  config.paperclip_default = {
+  config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
       :bucket => ENV['AWS_BUCKET'],
