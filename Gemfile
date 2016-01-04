@@ -24,6 +24,8 @@ gem 'devise','~>3.5','>=3.5.3'
 
 gem 'paperclip', '~>4.3','>=4.3.2'
 
+gem 'aws-sdk', '~>2.2', '>=2.2.8'
+
 group :development, :test do
   gem 'byebug'
 end
